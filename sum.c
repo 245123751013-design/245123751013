@@ -2,6 +2,7 @@
 int main(void) {
  int sum=0;
 int num=100;
+ int rem=0;
     while (num != 0) {
         // Extract the last digit using the modulo operator (%)
         rem = num % 10;
